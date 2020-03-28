@@ -9,16 +9,16 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 
-group = 'com.github.jitpack'
+group = 'com.github.AnSim7'
 version = '1.0'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
